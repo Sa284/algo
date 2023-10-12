@@ -1,0 +1,13 @@
+ALGORITHM vowels
+ VAR
+      tableau-V-(3) : char
+      i : Entier
+BEGIN
+      V (0) <-- "A"
+      V (1) <-- "E"
+      V (2) <-- "I"
+      write ("the vowels of the French alphabet are :")
+      for i<-- 0 to 2 do
+       write ( V ( i ))
+ END FOR  
+ END    
